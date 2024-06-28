@@ -17,6 +17,6 @@ def get_page_text(url):
         return f"Failed to retrieve the page. Status code: {response.status_code}"
 
 # Example usage
-url = 'http://example.com'
+url = 'https://www.tiktok.com/legal/page/us/privacy-policy/en'
 page_text = get_page_text(url)
 print(page_text)
